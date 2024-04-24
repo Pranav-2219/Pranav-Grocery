@@ -3,7 +3,7 @@ const fs = require('fs');
 const bodyParser = require('body-parser');
 
 const app = express();
-const port = process.env.PORT || 3000; // Use the dynamic port assigned by Heroku or default to 3000
+const port = process.env.PORT || 5000; // Use the dynamic port assigned by Heroku or default to 3000
 
 app.use(bodyParser.urlencoded({ extended: true }));
 // app.use('/images', express.static('images'));
